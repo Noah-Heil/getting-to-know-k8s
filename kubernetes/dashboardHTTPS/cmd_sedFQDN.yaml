@@ -1,0 +1,3 @@
+# Example CMD to replace the REPLACEME text above with correct FQDN
+sed -i -e "s|REPLACEME|dashboard.${DOMAIN_NAME}|g" \
+   ./dashboard-ingress.yaml
