@@ -14,10 +14,10 @@ metadata:
 spec:
   tls:
   - hosts:
-    - REPLACEME
+    - jenkins.ncrcloud.pw
     secretName: jenkins-leader-tls
   rules:
-  - host: REPLACEME
+  - host: jenkins.ncrcloud.pw
     http:
       paths:
       - path: /
